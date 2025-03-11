@@ -1,0 +1,89 @@
+{
+    "Version": "1",
+    "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONIVEL",
+    "UrlUpdate": "",
+    "Sms": "",
+    "videoUrl": "NAO MEXER AQUI",
+    "logoonline": "",
+    "fundoonline": "",
+    "fundoDoLogOnline": "",
+    "EmailFeedback": "",
+    "UrlContato": "https://wa.me/5511930332781",
+    "UrlTermos": "https://fast.com/pt/",
+    "CheckUser": "true",
+    "UdpPort":"7100;7200;7300;7400;7500;7600;7700;7800;7900",
+   "Udp":[
+      {
+         "Porta":"7100"
+      },
+      {
+         "Porta":"7200"
+      },
+      {
+         "Porta":"7300"
+      },
+      {
+         "Porta":"7400"
+      },
+      {
+         "Porta":"7500"
+      },
+      {
+         "Porta":"7600"
+      },
+      {
+         "Porta":"7700"
+      },
+      {
+         "Porta":"7800"
+      },
+      {
+         "Porta":"7900"
+      }
+    ],
+    "Servers": [
+    {
+      "Name": "Águia Net",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br.aguianet.space",
+      "CheckUser": "http://45.140.193.101:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+        {
+            "Name": "VIVO PRÉ-PAGO",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO EASY",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianet.space [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:104.18.7.41#::ffff:104.16.51.111#::ffff:45.140.193.101",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+    ]
+}
