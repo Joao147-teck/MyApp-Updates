@@ -1,18 +1,18 @@
 {
-    "Versão":  "1.2.0",
-    "Notas de lançamento":  "ATUALIZAÇÃO NECESSÁRIA PARA O FUNCIONAMENTO DO APP !!",
-    "Atualização completa":  "https://raw.githubusercontent.com/Joao147-teck/MyApp-Updates/refs/heads/main/config.json",
-    "SMS":  "",
-    "Vídeo Url":  "NAO MEXER AQUI",
-    "Logo online":  "",
-    "Fundo online":  "",
-    "Fundo DoLogOnline":  "",
-    "E-mail Feedback":  "",
-    "UrlContato":  "https://wa.me/5511930332781",
-    "Termos Url":  "https://fast.com/pt/",
-    "Verificar usuário":  "Verdadeiro",
-    "Português":"7100;7200;7300;7400;7500;7600;7700;7800;7900",
-   "UDP":[
+    "Version": "1",
+    "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONIVEL",
+    "UrlUpdate": "https://raw.githubusercontent.com/Joao147-teck/MyApp-Updates/refs/heads/main/config.json",
+    "Sms": "",
+    "videoUrl": "NAO MEXER AQUI",
+    "logoonline": "",
+    "fundoonline": "",
+    "fundoDoLogOnline": "",
+    "EmailFeedback": "",
+    "UrlContato": "https://wa.me/5511930332781",
+    "UrlTermos": "https://fast.com/pt/",
+    "CheckUser": "true",
+    "UdpPort":"7100;7200;7300;7400;7500;7600;7700;7800;7900",
+   "Udp":[
       {
          "Porta":"7100"
       },
@@ -34,56 +34,56 @@
       {
          "Porta":"7700"
       },
-       { {
- "Porta":"7800" "Porta":"7800"
-       }, },
-       { {
- "Porta":"7900" "Porta":"7900"
-       } }
- ], ],
- "servidores": [ "Servers":  [
-     { {
-       "Name":  "Águia Net",  "Nome":  "Águia Net",
- "Tipo": "premium", "Tipo":  "premium",
- "FLAG": "br.png", "Bandeira":  "br.png",
- "ServerIP": "br.aguianet.space", "ServerIP":  "br.aguianet.space",
- "CheckUser": "http://45.140.193.101:5454/checkUser", "Verificar usuário":  "http://45.140.193.101:5454/checkUser",
- "ServerPort": "22", "ServerPort":  "22",
- "SSLPort": "443", "SLPort":  "443",
- "Usuário": "", "Usuário":  "",
- "Passe": "" "Passar":  ""
-     } }
- ], ],
- "Redes": [ "Networks":  [
-         { {
-             "Name":  "VIVO PRÉ-PAGO",  "Nome":  "VIVO PRÉ-PAGO",
- "FLAG": "vivo", "Bandeira":  "Vivo",
- "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]", "Carga útil":  "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
- "SNI": "", "Sni":  "",
- "Dica": "", "Dica":  "",
- "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41", "ProxyIP":  "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
-             "ProxyPort":  "80",  "ProxyPort":  "80",
-             "Info":  "Proxy" "Info":  "Procxy"
-         }, },
-         { {
- "Nome": "Vivo Fácil" "Nome":  "VIVO EASY",
- "FLAG": "vivo", "FLAG":  "vivo",
- "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianetTESTE.space [crlf]Conexão: Atualizar[crlf]Atualizar: Websocket[crlf][crlf]", "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianetTESTE.space [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
- "SNI": "", "SNI": "",
- "Dica": "", "TlsIP": "",
- "ProxyIP": "::ffff:104.18.7.41#::ffff:104.16.51.111#::ffff:45.140.193.101", "ProxyIP": "::ffff:104.18.7.41#::ffff:104.16.51.111#::ffff:45.140.193.101",
-             "ProxyPort": "80", "ProxyPort": "80",
-             "Info": "Proxy" "Info": "Proxy"
-         }, },
-         { {
- "Nome": "TIM", "Name": "TIM",
- "FLAG": "vivo", "FLAG": "vivo",
- "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]", "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
- "SNI": "", "SNI": "",
- "Dica": "", "TlsIP": "",
- "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41", "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
-             "ProxyPort": "80", "ProxyPort": "80",
-             "Info": "Proxy" "Info": "Proxy"
-         } }
- ] ]
+      {
+         "Porta":"7800"
+      },
+      {
+         "Porta":"7900"
+      }
+    ],
+    "Servers": [
+    {
+      "Name": "ÁguiaTESTE Net",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br.aguianet.space",
+      "CheckUser": "http://45.140.193.101:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+        {
+            "Name": "VIVO PRÉ-PAGO",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO EASY",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianet.space [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:104.18.7.41#::ffff:104.16.51.111#::ffff:45.140.193.101",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:45.140.193.101#::ffff:104.16.51.111#::ffff:104.18.7.41",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+    ]
 }
