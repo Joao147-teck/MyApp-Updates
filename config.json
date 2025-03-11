@@ -1,7 +1,7 @@
 {
-    "Version": "1",
-    "ReleaseNotes": "NOVA ATUALIZAÇÃO DISPONIVEL",
-    "UrlUpdate": "",
+    "Version": "1.2.0",
+    "ReleaseNotes": "ATUALIZAÇÃO NECESSÁRIA PARA O FUNCIONAMENTO DO APP !!",
+    "UrlUpdate": "https://github.com/Joao147-teck/MyApp-Updates/blob/ec2ab04e086b034aa4ac84472149a8f579f4954b/config.json",
     "Sms": "",
     "videoUrl": "NAO MEXER AQUI",
     "logoonline": "",
@@ -68,7 +68,7 @@
         {
             "Name": "VIVO EASY",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianet.space [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: br.aguianetTESTE.space [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "::ffff:104.18.7.41#::ffff:104.16.51.111#::ffff:45.140.193.101",
